@@ -1,9 +1,10 @@
 import logging
 from typing import Any
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
 from app import config
 from app.db import get_db_counts, get_all_schemes
 from app.eligibility import check_eligibility
+from app.search import search_schemes
 
 app = FastAPI(title="Scheme Saathi API", version="0.1.0")
 
@@ -42,3 +43,16 @@ def check_user_eligibility(profile: dict[str, Any]) -> list[dict[str, Any]]:
     except Exception as exc:
         logging.error("Error during eligibility check: %s", exc)
         return [{"error": str(exc), "step": "rules"}]
+
+
+@app.get("/search")
+def search_endpoint(q: str = Query(..., description="Query text to search for relevant scheme chunks")) -> Any:
+    """Semantic search endpoint returning top relevant scheme chunks."""
+    logging.info("Search requested with query: '%s'", q)
+    try:
+        results = search_schemes(q)
+        logging.info("Search endpoint returning %d results", len(results))
+        return results
+    except Exception as exc:
+        logging.error("Failed during semantic search: %s", exc)
+        return {"error": str(exc), "step": "search"}
