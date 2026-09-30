@@ -1,0 +1,87 @@
+[
+  {
+    "slug": "pm-kisan",
+    "name": "PM-Kisan Samman Nidhi",
+    "state": null,
+    "source_url": "https://pmkisan.gov.in",
+    "last_verified": "2026-09-30",
+    "rules": {
+      "occupation": ["farmer"],
+      "min_age": 18,
+      "max_age": null,
+      "max_land_acres": null,
+      "max_income": null,
+      "categories": null,
+      "gender": null
+    },
+    "text": "PM-Kisan is a central sector scheme to provide income support to all landholding farmers families in the country to supplement their financial needs for procuring various inputs related to agriculture and allied activities as well as domestic needs. Under the scheme, financial benefit of Rs 6,000 per year is transferred directly into the bank accounts of farmer families in three equal four-monthly installments of Rs 2,000 each. Eligibility: Farmer families holding cultivable land in their names. Minimum age: 18 years. Documents required: Aadhaar card, proof of citizenship, landholding documents RTC Pahani, bank account details linked with Aadhaar. How to apply: Farmers can apply online at the PM-Kisan portal pmkisan.gov.in via the Farmers Corner, or through Common Service Centres CSCs and local revenue agriculture offices."
+  },
+  {
+    "slug": "gruha-lakshmi",
+    "name": "Gruha Lakshmi Scheme",
+    "state": "Karnataka",
+    "source_url": "https://sevasindhugs.karnataka.gov.in",
+    "last_verified": "2026-09-30",
+    "rules": {
+      "occupation": null,
+      "min_age": 18,
+      "max_age": null,
+      "max_land_acres": null,
+      "max_income": null,
+      "categories": null,
+      "gender": "female"
+    },
+    "text": "Gruha Lakshmi Scheme is a flagship Karnataka state guarantee scheme providing financial assistance of Rs 2,000 per month to the woman head of every eligible household in Karnataka. Eligibility: The woman must be identified as the head of the family in the Antyodaya, BPL, or APL ration card. The applicant or her husband must not be income tax or GST payers. Documents required: Ration card (BPL/APL/Antyodaya), Aadhaar card of the woman head, Aadhaar card of the husband, and bank account passbook linked to Aadhaar. How to apply: Applications can be submitted free of cost at Grama One, Karnataka One, Bengaluru One centres, or online through the Seva Sindhu guarantee schemes portal."
+  },
+  {
+    "slug": "yuva-nidhi",
+    "name": "Yuva Nidhi Scheme",
+    "state": "Karnataka",
+    "source_url": "https://sevasindhugs.karnataka.gov.in",
+    "last_verified": "2026-09-30",
+    "rules": {
+      "occupation": ["unemployed", "graduate", "job seeker"],
+      "min_age": 21,
+      "max_age": 35,
+      "max_land_acres": null,
+      "max_income": null,
+      "categories": null,
+      "gender": null
+    },
+    "text": "Yuva Nidhi provides unemployment assistance to educated youth in Karnataka who completed their graduation or diploma and remained unemployed after 6 months. Degree holders receive Rs 3,000 per month while diploma holders receive Rs 1,500 per month for up to two years or until employed. Eligibility: Karnataka domicile, passed degree/diploma, unemployed for at least 180 days after course completion, age between 21 and 35 years. Documents required: Domicile certificate, Degree/Diploma certificate and marks cards, Aadhaar card, bank account details. How to apply: Register on the Seva Sindhu portal or visit nearest Karnataka One / Grama One service centre."
+  },
+  {
+    "slug": "raitha-siri",
+    "name": "Raitha Siri Scheme",
+    "state": "Karnataka",
+    "source_url": "https://raitamitra.karnataka.gov.in",
+    "last_verified": "2026-09-30",
+    "rules": {
+      "occupation": ["farmer"],
+      "min_age": 18,
+      "max_age": null,
+      "max_land_acres": 5.0,
+      "max_income": null,
+      "categories": null,
+      "gender": null
+    },
+    "text": "Raitha Siri is a Karnataka state scheme promoting the cultivation of millets by giving financial assistance of Rs 10,000 per hectare directly into the farmers bank accounts. Eligibility: Farmers in Karnataka cultivating notified millets such as Ragi, Jowar, Bajra, Navane, etc., with land holding up to 5 acres / 2 hectares. Documents required: RTC / Pahani land records, Aadhaar card, bank account linked with NPCI/Aadhaar, and Kisan/FRUITS registration ID. How to apply: Apply through the Karnataka FRUITS portal or local Raitha Samparka Kendra."
+  },
+  {
+    "slug": "shakti-scheme",
+    "name": "Shakti Scheme",
+    "state": "Karnataka",
+    "source_url": "https://transport.karnataka.gov.in",
+    "last_verified": "2026-09-30",
+    "rules": {
+      "occupation": null,
+      "min_age": null,
+      "max_age": null,
+      "max_land_acres": null,
+      "max_income": null,
+      "categories": null,
+      "gender": "female"
+    },
+    "text": "Shakti Scheme offers free travel for women and transgender persons residing in Karnataka across state-run ordinary and express city/district buses (KSRTC, BMTC, NWKRTC, KKRTC). Eligibility: All female residents of Karnataka. Documents required: Government-issued photo ID card with Karnataka residential address (Aadhaar, Voter ID, or Shakti smart card). How to apply: Free zero-fare tickets are issued upon showing a valid photo ID card to the bus conductor; Shakti Smart Cards can be applied via the Seva Sindhu portal."
+  }
+]
