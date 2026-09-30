@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-dotenv
+psycopg[binary]
+pgvector
+google-genai
+pydantic
+pytest
+requests
+beautifulsoup4
+python-multipart
+httpx
